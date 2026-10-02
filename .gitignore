@@ -1,0 +1,14 @@
+node_modules/
+frontend/node_modules/
+frontend/dist/
+.env
+.DS_Store
+test-scripts/
+
+# Local user media and generated processing files
+storage/uploads/*
+storage/processing/*
+storage/output/*
+!storage/uploads/.gitkeep
+!storage/processing/.gitkeep
+!storage/output/.gitkeep

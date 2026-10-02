@@ -1,0 +1,27 @@
+{
+  "name": "video-transcriber",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "client": "npm --prefix frontend run dev",
+    "build": "npm --prefix frontend run build",
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "file-type": "^22.0.2",
+    "fluent-ffmpeg": "^2.1.3",
+    "multer": "^2.3.0",
+    "nanoid": "^6.0.1",
+    "nodejs-whisper": "^0.3.1",
+    "nodemon": "^3.1.14",
+    "uuid": "^14.0.2"
+  }
+}
