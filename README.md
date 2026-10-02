@@ -4,6 +4,12 @@ Caption Forge is a local-first video captioning studio. Upload an MP4, transcrib
 
 The project pairs a responsive React interface with an Express processing pipeline powered by FFmpeg and `nodejs-whisper`.
 
+## Product demo
+
+[![Watch the Caption Forge product walkthrough](promo/caption-forge-demo-poster.jpg)](promo/caption-forge-demo.mp4)
+
+The 32-second walkthrough demonstrates uploading a video, switching caption presets, adjusting typography and position, processing the clip, and previewing the finished export. It includes an original background music track.
+
 ## Features
 
 - Drag-and-drop MP4 uploads

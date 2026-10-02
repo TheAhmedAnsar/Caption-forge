@@ -15,6 +15,8 @@ async function transcribeAudio(audioPath) {
         modelName: 'base',
         autoDownloadModelName: 'base',
         whisperOptions: {
+            language: 'auto',
+            translateToEnglish: false,
             outputInSrt: true
         }
 

@@ -129,12 +129,12 @@ function App() {
           <span className="brand-mark" aria-hidden="true"><i /><i /><i /></span>
           <span>CAPTION<br />FORGE</span>
         </a>
-        <div className="header-note">
+        {/* <div className="header-note">
           <span className="live-dot" /> Local AI studio
-        </div>
-        <a className="source-link" href="https://github.com/ChetanXpro/nodejs-whisper" target="_blank" rel="noreferrer">
+        </div> */}
+        {/* <a className="source-link" href="https://github.com/ChetanXpro/nodejs-whisper" target="_blank" rel="noreferrer">
           Powered by local Whisper <ArrowIcon />
-        </a>
+        </a> */}
       </header>
 
       <section className="hero" id="top">
