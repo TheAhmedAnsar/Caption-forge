@@ -12,3 +12,4 @@ storage/output/*
 !storage/uploads/.gitkeep
 !storage/processing/.gitkeep
 !storage/output/.gitkeep
+promo/
